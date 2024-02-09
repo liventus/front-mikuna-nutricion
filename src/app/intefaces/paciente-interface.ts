@@ -1,5 +1,5 @@
 export interface PacienteInterface {
-
+    id?: string;
     address: string;
     email: string;
     historiaClinica: string;
@@ -7,6 +7,6 @@ export interface PacienteInterface {
     nroDeDocument: string;
     phone: string;
     documentType: string;
-
+    
 
 }
