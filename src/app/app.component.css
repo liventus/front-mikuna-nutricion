@@ -1,0 +1,12 @@
+.header-prinsipal{
+    position: sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+.body-prinsipal{
+    margin-top: 200px;
+    margin-left: 5px;
+}
