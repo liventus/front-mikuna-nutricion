@@ -6,11 +6,12 @@ import { Router } from '@angular/router';
 import { RouterLink } from '@angular/router';
 import { RouterLinkActive } from '@angular/router'; 
 import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-tabla-pacientes',
   standalone: true,
-  imports: [CommonModule  , RouterLink, RouterLinkActive, RouterOutlet  ],
+  imports: [CommonModule  , RouterLink, RouterLinkActive, RouterOutlet, RouterModule],
   templateUrl: './tabla-pacientes.component.html',
   styleUrl: './tabla-pacientes.component.css'
 })
@@ -18,7 +19,7 @@ export class TablaPacientesComponent {
 
   dataSource: PacienteInterface[] = [];
 
-  constructor(private pacienteService : PacientesService, private router:Router) { 
+  constructor(private pacienteService : PacientesService, private router: Router) { 
     
   }
 
@@ -46,6 +47,5 @@ export class TablaPacientesComponent {
 
   nuevoRegistroDePacientes(){
     this.router.navigate(['nuevo-paciente']);
-    alert('nuevo registro de pacientes');
   }
 }

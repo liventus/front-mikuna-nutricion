@@ -26,4 +26,8 @@ import { BodyComponent } from './componentes/body/body.component';
 })
 export class AppComponent {
   title = 'front-mikuna-nutricion';
+
+  
+  constructor() { }
+
 }

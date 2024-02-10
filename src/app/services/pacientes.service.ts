@@ -10,6 +10,12 @@ export class PacientesService {
 
   constructor(private firestore: Firestore ) { }
 
+  createdPaciente(paciente: PacienteInterface): Promise<any>{
+    const pacienteRef = collection(this.firestore, 'Clients');
+    return addDoc(pacienteRef, paciente);
+  }
+
+
 
   getPacientes(): Observable<PacienteInterface[]>{
 

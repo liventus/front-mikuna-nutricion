@@ -5,8 +5,9 @@ import { HistoryComponent } from './componentes/history/history.component';
 
 
 export const routes: Routes = [
-    { path: '**', pathMatch: 'full', redirectTo: 'Lista-pacientes'},
+    
     { path: 'Lista-pacientes', component: TablaPacientesComponent },
     { path: 'nuevo-paciente', component: FormPacientesComponent },
-    { path: 'historias-Form', component:  HistoryComponent  }    
-];
+    { path: 'historias-Form', component:  HistoryComponent  }    ,
+    { path: '**', pathMatch: 'full', redirectTo: 'Lista-pacientes'},
+];  
