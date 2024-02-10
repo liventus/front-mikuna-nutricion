@@ -1,1 +1,40 @@
-<p>form-pacientes works!</p>
+<div class="container">
+    <form  [formGroup]="formPaciente" class="mt-5  ">
+
+        <div class="form-floating mb-5">
+            <input type="text" class="form-control" id="floatingInput" placeholder="nombre" formControlName="name">
+            <label for="floatingInput">Nombre y Apellidos</label>
+        </div>
+    
+        <div class="form-floating my-5 ">
+            <input type="text" class="form-control" id="floatingInput" placeholder="distrito de referencia" formControlName="address">
+            <label for="floatingInput">Distritos</label>
+        </div>
+
+        <div class="form-floating my-5 ">
+            <input type="tel" class="form-control" id="floatingInput" placeholder="123456987" formControlName="phone">
+            <label for="floatingInput">Telefonos</label>
+        </div>
+
+        <div class="form-floating my-5 ">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email">
+            <label for="floatingInput">Correo electronico</label>
+        </div>
+
+        <div class="form-floating my-5 ">
+            <input type="text" class="form-control" id="floatingInput" placeholder="DNI" formControlName="documentType">
+            <label for="floatingInput">tipo de documetno</label>
+        </div>
+
+        <div class="form-floating my-5 ">
+            <input type="text" class="form-control" id="floatingInput" placeholder="123456789" formControlName="nroDeDocument">
+            <label for="floatingInput">Numnero de Documento</label>
+        </div>
+
+
+
+        <button class="btn btn-primary container-fluid " type="submit" (click)="savePaciente()" [disabled]="formPaciente.invalid">Registrar</button>
+
+    </form>
+
+</div>

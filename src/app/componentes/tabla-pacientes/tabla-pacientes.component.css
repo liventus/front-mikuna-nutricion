@@ -1,0 +1,14 @@
+.table-estilos{
+    width: 95%;
+    box-shadow: 0px 0px 10px 0px #000000;
+    margin: 0 auto;     
+    margin-top: 20px;
+}
+svg {
+    height: 25px;
+    width: 25px;
+
+}
+.td-bootstrap{
+    vertical-align: middle;
+}
