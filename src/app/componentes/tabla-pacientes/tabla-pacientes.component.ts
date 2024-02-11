@@ -7,6 +7,7 @@ import { RouterLink } from '@angular/router';
 import { RouterLinkActive } from '@angular/router'; 
 import { RouterOutlet } from '@angular/router';
 import { RouterModule } from '@angular/router';
+import { DataServiceService } from '../../services/data-service.service';
 
 @Component({
   selector: 'app-tabla-pacientes',
@@ -19,7 +20,8 @@ export class TablaPacientesComponent {
 
   dataSource: PacienteInterface[] = [];
 
-  constructor(private pacienteService : PacientesService, private router: Router) { 
+  constructor(private pacienteService : PacientesService, private router: Router ,
+    private dataService: DataServiceService) { 
     
   }
 
@@ -30,9 +32,10 @@ export class TablaPacientesComponent {
     });
   }
 
-  historiaClinica(){
-    console.log('historia clinica');
-    alert('historia clinica');
+  historiaClinica(data: PacienteInterface){
+    this.dataService.selectedData = data;
+    this.router.navigate(['historias-Form']);
+
   }
 
   sendEmail(){
