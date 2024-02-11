@@ -1,1 +1,681 @@
-<p>{{data|json}}</p>
+<p>{{ data|json }}</p>
+
+{{data.name}}
+
+
+
+<div class="container">
+  <h2>Seción Datos</h2>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend" style="width:50%;">
+      <span class="input-group-text" id="idclinica">historia clinica Id  </span>
+    </div>
+    <input type="text" class="form-control" id="idclinica1" aria-describedby="basic-addon3" value="{{data.historiaClinica}}">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend" style="width:50%;">
+      <span class="input-group-text" id="idclinica">historia clinica Id  </span>
+    </div>
+    <input type="text" class="form-control" id="idclinica1" aria-describedby="basic-addon3" value="{{data.documentType}} {{data.nroDeDocument}}">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend" style="width:50%;">
+      <span class="input-group-text" id="nombre" >nombre </span>
+    </div>
+    <input type="text" class="form-control" id="nombre1" aria-describedby="basic-addon3" value="{{data.name}}">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend" style="width:50%;">
+      <span class="input-group-text" id="idclinica">historia clinica Id  </span>
+    </div>
+    <input type="text" class="form-control" id="idclinica1" aria-describedby="basic-addon3" value="{{data.id}}">
+  </div>
+
+  <h2>Seción Inicial</h2>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend" style="width:50%;">
+      <span class="input-group-text" id="basic-addon1" >1. Fecha de nacimiento </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url1" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend" style="width:50%;">
+      <span class="input-group-text" id="basic-addon2">2. Edad calculada hasta la fecha de inscripción  </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url2" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">3. Peso habitual  </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">4. Peso actual   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">5. Perímetro abdominal   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">6. Talla    </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">7. IMC (calculado [talla en metros/peso2    </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">8. % grasa corporal  </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">9. Motivo de consulta  </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">10. Objetivo nutricional  </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+
+
+  <h2>Seción antecedentes</h2>
+  <h3>antecedentes personales</h3>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      anemia
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      alergia alimentaria
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      gastritis
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      estreñimiento
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      diarreas
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      infeccion respiratoria
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      diabetes mellitus
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      dislipidemias
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      hipertencion arterial
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      cancer
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      tuberculosis
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      cirugias
+    </label>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:10%;">
+      <span class="input-group-text" id="basic-addon3">otros </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+
+
+  <h3>antecedentes familiares</h3>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      diabetes mellitus
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      dislipidemias
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      hipertencion arterial
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      cancer
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      tuberculosis
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      cirugias
+    </label>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:10%;">
+      <span class="input-group-text" id="basic-addon3">otros </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">3. fármacos usados y en uso (tiempo de tratamiento) </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">4. Pruebas bioquímicas previas y fecha en las que se realizó   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+
+
+  <h2>Sección Rutina </h2>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend" style="width:50%;">
+      <span class="input-group-text" id="basic-addon1" >1. ¿A qué se dedica? </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url1" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend" style="width:50%;">
+      <span class="input-group-text" id="basic-addon2">2. Tipo de modalidad en la que labora o estudia (remoto ; presencial o ambos)   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url2" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">3. ¿Cuántas horas al día labora?
+  </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">4. ¿Realiza actividad física? (sí; no) ( escoger)   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">5. ¿Qué tipo de actividad física realiza, frecuencia y horarios?   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">6. ¿Quién prepara los alimentos?   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">7. ¿Cuántas veces come en la calle y cuál es el motivo?   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <h2>Sección Analisis nutricional </h2>
+
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Apetito: Bajo, normal, alto ( escoger)</label>
+    <select class="form-select" id="inputGroupSelect01">
+      <option selected>Choose...</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Sed: Bajo, normal, alto ( escoger)</label>
+    <select class="form-select" id="inputGroupSelect01">
+      <option selected>Choose...</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Deposiciones: Estreñimiento, normal, suelto, dearreas ( escoger) </label>
+    <select class="form-select" id="inputGroupSelect01">
+      <option selected>Choose...</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">signos clínicos (piel, ojos , dentadura, uñas cabellos, etc): ______________ llenar   </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <h3>R-24 Frecuencia de consumo de alimentos</h3>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">desayuno </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">media mañana </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">almuerzo</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">media tarde </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:50%;">
+      <span class="input-group-text" id="basic-addon3">cena </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <h3>en el siguiente apartado va la cantidad de veces que consume, usando las porciones caseras para ayudar al paciente
+  que nos brinde informacion</h3>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">pescado </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">lacteos </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">carnes blanca </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">huevo</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">carnes rojas </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">cereales</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">visceras </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">verduras</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">menestras</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">frutas</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">extractos </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">agua</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">golosinas </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">gaseosas</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">frituras </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:50%;">
+            <span class="input-group-text" id="basic-addon3">plantas medicinales</span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend"  style="width:25%;">
+            <span class="input-group-text" id="basic-addon3">suplementos </span>
+          </div>
+          <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <h1>para llenar</h1>
+  <h2>Seccion diagnostico nutricional</h2>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:25%;">
+      <span class="input-group-text" id="basic-addon3">Diagnostico --llenar</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:25%;">
+      <span class="input-group-text" id="basic-addon3">observaciones</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <h2>Seccion seguimiento nutricional</h2>
+
+  <table class="table">
+    <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">fecha</th>
+      <th scope="col">peso</th>
+      <th scope="col">talla</th>
+      <th scope="col">PA</th>
+      <th scope="col">imc</th>
+      <th scope="col">observacones</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td></td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td></td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td></td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td></td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:25%;">
+      <span class="input-group-text" id="basic-addon3">fecha </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:25%;">
+      <span class="input-group-text" id="basic-addon3">peso </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:25%;">
+      <span class="input-group-text" id="basic-addon3">talla</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:25%;">
+      <span class="input-group-text" id="basic-addon3">perimetro absominal</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:25%;">
+      <span class="input-group-text" id="basic-addon3">imc </span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend"  style="width:25%;">
+      <span class="input-group-text" id="basic-addon3">obervaciones</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url3" aria-describedby="basic-addon3">
+  </div>
+
+  <button type="button" class="btn btn-outline-primary"  >guardar nuevo seguimiento</button>
+
+
+
+
+
+
+
+
+
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroupFileAddon01">subir fotos</span>
+    </div>
+    <div class="custom-file">
+      <input type="file" class="custom-file-input" id="inputGroupFile01"
+             aria-describedby="inputGroupFileAddon01">
+      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+    </div>
+    <div>
+      <button type="button" class="btn btn-outline-primary"  >ver fotos</button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-outline-primary"  >subir foto</button>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroupFileAddon01">opcion de adjunar documentos</span>
+    </div>
+    <div class="custom-file">
+      <input type="file" class="custom-file-input" id="inputGroupFile01"
+             aria-describedby="inputGroupFileAddon01">
+      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+    </div>
+    <div>
+      <button type="button" class="btn btn-outline-primary"  >ver fotos</button>
+    </div>
+    <div>
+      <button type="button" class="btn btn-outline-primary"  >ver documentos</button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
