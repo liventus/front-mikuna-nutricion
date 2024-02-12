@@ -13,13 +13,16 @@ import { DataServiceService } from '../../services/data-service.service';
 })
 export class HistoryComponent {
 
-  data: any;
+  data?: any;
 
-  constructor( private dataPaciente : DataServiceService ) { }
+  constructor( private dataPaciente : DataServiceService ) {
+
+
+  }
 
   ngOnInit(): void {
     this.data = this.dataPaciente.selectedData;
   }
 
-  
+
 }
