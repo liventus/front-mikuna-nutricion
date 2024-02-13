@@ -76,3 +76,19 @@
     font-size: 14px;
     font-weight: bold;
 }
+
+.avatar-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border-color: #000 2px solid;
+    
+}
+.displayName{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
