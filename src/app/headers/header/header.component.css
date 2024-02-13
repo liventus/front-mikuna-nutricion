@@ -69,3 +69,10 @@
     visibility: visible;
     transform: scaleX(1);
 }
+.boton{
+    border-radius: 50px;
+    padding: 14px 40px;
+    background-color: #4CAF50;
+    font-size: 14px;
+    font-weight: bold;
+}
