@@ -1,7 +1,6 @@
 export const rutas = [
   
-    { path: '/historias-Form', name: 'formulario historia' },
-    { path: '/nuevo-paciente', name: 'Nuevo Paciente' },
+    { path: '/home', name: 'Home'},
     { path: '/Lista-pacientes', name: 'Lista pacientes' },
-    
+    { path: '/nuevo-paciente', name: 'Nuevo Paciente' },
 ]
